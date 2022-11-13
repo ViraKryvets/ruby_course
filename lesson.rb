@@ -6,7 +6,8 @@ puts('Enter num1')
 first_number = gets.chomp().to_i
 puts('Enter num2')
 second_number = gets.chomp().to_i
-result = (first_number*second_number).to_s
-puts('Result is ' + result)
+result = first_number*second_number
+puts('Result is ' + result.to_s)
+
 
 
